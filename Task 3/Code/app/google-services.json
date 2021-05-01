@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "174720295972",
+    "project_id": "quizbysiddy",
+    "storage_bucket": "quizbysiddy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174720295972:android:7231bf2047262ccff6a4b1",
+        "android_client_info": {
+          "package_name": "com.example.quizappbysiddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174720295972-up15sb2sdm66avg4r612en0sm6464t4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quizappbysiddy",
+            "certificate_hash": "3a79e7cdd97662746c15a80c81b4721c0f228e20"
+          }
+        },
+        {
+          "client_id": "174720295972-mkhfvim6v92nn53t7d3qcmrvho5888p5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcrto7AW5RT78AjenVw7tsuTFW9c29kWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174720295972-mkhfvim6v92nn53t7d3qcmrvho5888p5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
