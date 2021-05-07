@@ -6,12 +6,16 @@ This reposoitory consists of 4 tasks which were provided by the club he is part 
 
 Below are the specification of each task in this Repository:
 
-*Task 1*: Deadline: Wednesday, 10 April 2021
+*Task 1*: 
+Deadline: Wednesday, 10 April 2021
+
 Make a basic calculator for arithmetic operations (+,-,/,*)
 bonus: if multi-operand ( can handle more than one operation on multiple operands)
 
 
-*Task 2*: Deadline: Monday, 17 April 2021
+*Task 2*: 
+Deadline: Monday, 17 April 2021
+
 Make an application having a button for each of the following operations:
 
 ● Date Picker: Selected date becomes the text of the button
@@ -30,7 +34,9 @@ https://github.com/81813780/AVLoadingIndicatorView
 
 
 
-*Task 3*: Deadline: Monday, 1 May 2021
+*Task 3*: 
+Deadline: Monday, 1 May 2021
+
 Make a quiz app with following:
 ● 10 Questions with timer
 
@@ -51,7 +57,9 @@ every MCQ answered
 
 
 
-*Task 4*: Deadline: Monday, 10 May 2021
+*Task 4*: 
+Deadline: Monday, 10 May 2021
+
 Use the following api to fetch the details of dog breed and display it in the app. Use your own
 creativity for the User Interface.
 
