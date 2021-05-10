@@ -13,6 +13,8 @@ Make a basic calculator for arithmetic operations (+,-,/,*)
 bonus: if multi-operand ( can handle more than one operation on multiple operands)
 
 
+
+
 *Task 2*: 
 Deadline: Monday, 17 April 2021
 
@@ -31,6 +33,8 @@ progress bar must stop after 5 sec. Use countdown timer)
 
 External Library for progress bar:
 https://github.com/81813780/AVLoadingIndicatorView
+
+
 
 
 
@@ -57,6 +61,8 @@ every MCQ answered
 
 
 
+
+
 *Task 4*: 
 Deadline: Monday, 10 May 2021
 
@@ -67,6 +73,7 @@ API GET
 https://dog.ceo/api/breeds/list/all
 
 https://dog.ceo/api/breed/{breed_name}/images/random
+
 The first url gives you the list of all the breeds of the dog. After fetching this, you need
 to fetch the specific image for the dog and use Glide/Picassso to view in it into the
 ImageView. Fetch and Cache the data in the phone which will not require any other
