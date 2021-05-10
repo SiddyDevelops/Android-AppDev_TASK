@@ -73,6 +73,6 @@ assistance of the database and will just require internet for gliding the image 
 imageview. Use the retrofit library for calling the API.
 
 
-***********  NOTE: None of the task is sole creation/production of Siddharth, he has used multiple libraries and sources available over the internet including GitHub, 
-StackoverFlow, Udemy and YouTube.  **********
+*NOTE:* None of the task is sole creation/production of Siddharth, he has used multiple libraries and sources available over the internet including GitHub, 
+StackoverFlow, Udemy and YouTube.
  
