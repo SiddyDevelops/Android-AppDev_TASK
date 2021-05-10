@@ -65,6 +65,7 @@ creativity for the User Interface.
 
 API GET
 https://dog.ceo/api/breeds/list/all
+
 https://dog.ceo/api/breed/{breed_name}/images/random
 The first url gives you the list of all the breeds of the dog. After fetching this, you need
 to fetch the specific image for the dog and use Glide/Picassso to view in it into the
