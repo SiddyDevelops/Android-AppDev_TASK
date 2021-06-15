@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F9"
+    tools:context=".Stage2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="323dp"
+        android:fontFamily="@font/sf_pro_display"
+        android:text="Pets"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="383dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/pets_baground"
+        android:backgroundTint="#D8D6D6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201">
+
+        <ImageView
+            android:id="@+id/imageCat"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/pet_background_dlx"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/cat"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <TextView
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/sf_pro_display"
+            android:text="Cats"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="175dp"></TextView>
+
+        <View
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="140dp"
+            android:background="@drawable/ic_vector"
+            android:backgroundTint="@color/black"></View>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="383dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/pets_baground"
+        android:backgroundTint="#D8D6D6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        app:layout_constraintVertical_bias="0.061">
+
+        <ImageView
+            android:id="@+id/imageDog"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/pet_background_dlx"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/dog"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <TextView
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/sf_pro_display"
+            android:text="Dogs"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="175dp"></TextView>
+
+        <View
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="140dp"
+            android:background="@drawable/ic_vector"
+            android:backgroundTint="@color/black"></View>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="383dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/pets_baground"
+        android:backgroundTint="#D8D6D6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9"
+        app:layout_constraintVertical_bias="0.079">
+
+        <ImageView
+            android:id="@+id/imageHamster"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/pet_background_dlx"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hamaster"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <TextView
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/sf_pro_display"
+            android:text="Hamsters"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="175dp"></TextView>
+
+        <View
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="133dp"
+            android:background="@drawable/ic_vector"
+            android:backgroundTint="@color/black"></View>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="383dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/pets_baground"
+        android:backgroundTint="#D8D6D6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout10"
+        app:layout_constraintVertical_bias="0.111">
+
+        <ImageView
+            android:id="@+id/imageParrot"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/pet_background_dlx"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/parrot"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <TextView
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/sf_pro_display"
+            android:text="Parrots"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="175dp"></TextView>
+
+        <View
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="140dp"
+            android:background="@drawable/ic_vector"
+            android:backgroundTint="@color/black"></View>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="383dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/pets_baground"
+        android:backgroundTint="#D8D6D6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        app:layout_constraintVertical_bias="0.173">
+
+        <ImageView
+            android:id="@+id/imageGoldfish"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/pet_background_dlx"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/goldfish"
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="336dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/sf_pro_display"
+            android:text="Gold Fish"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="175dp"></TextView>
+
+        <View
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="121dp"
+            android:background="@drawable/ic_vector"
+            android:backgroundTint="@color/black"></View>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
