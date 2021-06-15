@@ -81,6 +81,18 @@ assistance of the database and will just require internet for gliding the image 
 imageview. Use the retrofit library for calling the API.
 
 
+
+*Task 5*: 
+Deadline: Sunday, 20 June 2021
+
+Use the following figma to create a similar interface.
+
+FIGMA design: 
+https://www.figma.com/file/SWZtOPu7K1AC7uJqImGz4I/ADG-Task-5?node-id=0%3A1
+
+
+
+
 *NOTE:* None of the task is sole creation/production of Siddharth, he has used multiple libraries and sources available over the internet including GitHub, 
 StackoverFlow, Udemy and YouTube.
  
